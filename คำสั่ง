@@ -1,0 +1,3 @@
+php artisan key:generate --ansi สร้างคีย์
+ctrl-n สร้างหน้าเปล่า
+ctrl-\ เปิด2หน้า
