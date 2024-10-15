@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController; 
 
 Route::get('/', function () {
     return view('index');
@@ -35,11 +36,13 @@ Route::middleware([
     Route::get('/adduser', function () {
         return view('adduser');
     })->name('adduser');
-    
+
+    Route::get('/viewuser/{id}', [UserController::class, 'show'])->name('viewuser');
 
     Route::get('/edituser/{id}', function ($id) {
         return view('edituser',compact('id'));
     })->name('edituser');
+
 
 
 });

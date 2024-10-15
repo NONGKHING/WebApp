@@ -238,8 +238,7 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <button class="btn btn-primary" type="submit">Login</button>
-
+                <button class="btn btn-primary center-button" type="submit">Login</button>
                 <!-- แสดงข้อความหากมีข้อผิดพลาด -->
                 @if ($errors->any())
                     <div class="alert alert-danger">
@@ -266,4 +265,3 @@
 </body>
 
 </html>
-    

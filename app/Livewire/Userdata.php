@@ -18,6 +18,7 @@ class Userdata extends Component
             dd($e);
         }
     }
+    
 
     public function render()
     {

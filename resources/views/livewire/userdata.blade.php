@@ -47,10 +47,8 @@
                       <span class="badge badge-success">Success</span>
                   </td>
                   <td class="project-actions text-right">
-                      <a class="btn btn-primary btn-sm" href="#">
-                          <i class="fas fa-folder">
-                          </i>
-                          View
+                    <a class="btn btn-outline-info btn-sm mx-1" href="{{ route('viewuser', ['id' => $item->id]) }}">
+                        <i class="fas fa-eye"></i> View
                       </a>
                       <a class="btn btn-info btn-sm" href="{{route('edituser',['id'=>$item->id]) }}">
                           <i class="fas fa-pencil-alt">
