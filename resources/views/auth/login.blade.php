@@ -252,9 +252,7 @@
                 @endif
 
                 <div class="form-help">
-                    <label class="remember-me">
-                        <input type="checkbox" name="remember"> Remember me
-                    </label>
+                    <p class="mt-5 mb-0"> <a href="{{route('register')}}">สมัครสมาชิก</a></p>
                     <a href="{{ route('password.request') }}">Forgot your password?</a>
                 </div>
             </div>
